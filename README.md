@@ -28,9 +28,8 @@ git config --global user.name "(su nombre de perfil github)"
 git config --global user.email "(e-mail principal de github)"   
 ```
 
-## Instalacion de Flask y TensorFlow
-con uso de python y su gestor de paquetes **pip** usaremos el siguiente comando en el CMD
+## Instalacion de TensorFlow en javascript
+con uso de javascript y su gestor de paquetes **npm** usaremos el siguiente comando en el CMD
 ```bash
-pip install Flask
-pip install TensorFlow
+npm install @tensorflow/tfjs
 ```
