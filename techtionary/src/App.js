@@ -1,16 +1,17 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Log from "./Log";
 
 
-const App = ()  =>{
+const App = () => {
   return (
     <div className="App">
       hola
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<index />} />
-          </Routes>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Log />} />
+        </Routes>
+      </BrowserRouter>
     </div>
 
   );
