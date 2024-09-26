@@ -1,4 +1,5 @@
 import React from "react";
+import Camara from "./Camara";
 
 
 const Log = () => {
@@ -20,7 +21,7 @@ const Log = () => {
                 </section>
                 <section id="secc02">
                     <article>
-                        la camada va aqui
+                        <Camara />
                     </article>
                 </section>
             </body>
