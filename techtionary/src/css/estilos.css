@@ -1,24 +1,26 @@
-body{
+html {
+    --letra: "Georgia", "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+body {
     max-width: 1024px;
     margin: 0px auto;
-    vertical-align: top;
-    font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 16px;
-    border-radius: 5px;
 }
 
-header{
-    background-color: #333;
+header {
+    background-color: #5251c0;
     color: white;
-    padding: 10px;
     border-radius: 5px;
-    width: 50%;
-    height: 50px;
+    width: 51%;
+    font-family: var(--letra);
     margin: 0px auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
-#secc01 article{
+#secc01 article {
     display: inline-block;
     width: 25.5%;
     border-radius: 10px;
@@ -26,22 +28,37 @@ header{
 }
 
 
-#secc01 article input[type="button"]{
+#secc01 article input[type="button"] {
     width: 100%;
     margin: 5px;
     border-radius: 5px;
     font-size: 1.3em;
+    transition: 0.5s;
+    font-family: var(--letra);
 }
 
-#secc01 article input[type="button"]:hover{
+#secc01 article input[type="button"]:hover {
     transition: 0.5s;
     background-color: #3647a7;
 }
 
-#secc02 article{
-    background: rgb(71, 67, 64);
+#secc01 article input[type="button"]:active {
+    background-color: #3647a7;
+    transition: 0.5s;
+}
+
+#secc02 {
+    background: rgba(78, 18, 76, 0.399);
     margin: 0px auto;
     width: 51%;
+    border-radius: 5px;
     height: 540px;
+}
+
+#secc02 article {
+    background: rgb(71, 67, 64);
+    margin: 0px auto;
+    width: 90%;
+    height: 520px;
     border-radius: 5px;
 }
