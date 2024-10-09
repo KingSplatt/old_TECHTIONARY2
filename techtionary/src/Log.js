@@ -1,17 +1,16 @@
 import React from "react";
 import Camara from "./Camara";
 
-
 const Log = () => {
     return (
         <html>
             <body>
-                <header>
-                    <h1>
-                        Techtionary
-                    </h1>
-                </header>
                 <section id="contenedor">
+                    <header class="header">
+                        <h1>
+                            Techtionary
+                        </h1>
+                    </header>
                     <section id="secc01">
                         <article>
                             <input type="button" value="Camara"></input>

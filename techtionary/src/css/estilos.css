@@ -7,7 +7,12 @@ body {
     margin: 0px auto;
     text-align: center;
     background: #f2f2f2;
-    max-width: 1024px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+
 }
 
 header {
@@ -15,23 +20,30 @@ header {
     color: white;
     border-radius: 5px;
     font-family: var(--letra);
-    margin: 0px auto;
     padding-top: 3px;
     padding-bottom: 3px;
+    width: 100%;
+
 }
+
+.header {
+    grid-area: header;
+}
+
 
 #contenedor {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 0px auto;
-    width: 70%;
-    height: auto;
+    gap: 10px;
+    grid-template-areas:
+        "header"
+        "secc01"
+        "secc02";
+
+
 }
 
 #secc01 {
-    grid-column: 2/3;
-    grid-row: 1/3;
+    grid-area: secc01;
     height: 0px auto;
 }
 
@@ -43,8 +55,7 @@ header {
     border-radius: 5px;
     height: 540px;
 
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-area: secc02;
 }
 
 

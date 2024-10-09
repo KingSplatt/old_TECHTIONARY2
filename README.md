@@ -33,3 +33,9 @@ con uso de javascript y su gestor de paquetes **npm** usaremos el siguiente coma
 ```bash
 npm install @tensorflow/tfjs
 ```
+
+
+## Instalar react-web cam
+´´´bash
+npm install react-webcam
+´´´
