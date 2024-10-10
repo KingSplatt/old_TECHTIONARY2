@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build --remote origin"
   },
-  "homepage": "https://kingsplatt.github.io/techtionary",
+  "homepage": "https://kingsplatt.github.io/TECHTIONARY",
   "eslintConfig": {
     "extends": [
       "react-app",
