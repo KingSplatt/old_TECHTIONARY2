@@ -18,10 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://kingsplatt.github.io/techtionary",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build --remote origin"
   },
+  "homepage": "https://kingsplatt.github.io/techtionary",
   "eslintConfig": {
     "extends": [
       "react-app",
