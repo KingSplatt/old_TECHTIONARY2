@@ -12,12 +12,14 @@ const Log = () => {
                         </h1>
                     </header>
                     <section id="secc01">
-                        <article>
-                            <input type="button" value="Camara"></input>
-                        </article>
-                        <article>
-                            <input type="button" value="Dispositivos"></input>
-                        </article>
+                        <section id="condos">
+                            <section>
+                                <input type="button" value="Camara"></input>
+                            </section>
+                            <section>
+                                <input type="button" value="Dispositivos"></input>
+                            </section>
+                        </section>
                     </section>
                     <section id="secc02">
                         <article>
