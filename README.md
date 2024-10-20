@@ -28,6 +28,14 @@ git config --global user.name "(su nombre de perfil github)"
 git config --global user.email "(e-mail principal de github)"   
 ```
 
+# Para descargar react
+Para poder descargar React primero hay que descargar Node.js
+Una vez instalado ir a la terminal y poner los siguientes comandos:
+```bash
+npm install -g npm@latest
+npm --version
+```
+
 ## Instalacion de TensorFlow en javascript
 con uso de javascript y su gestor de paquetes **npm** usaremos el siguiente comando en el CMD
 ```bash
@@ -36,6 +44,6 @@ npm install @tensorflow/tfjs
 
 
 ## Instalar react-web cam
-´´´bash
+```bash
 npm install react-webcam
-´´´
+```
