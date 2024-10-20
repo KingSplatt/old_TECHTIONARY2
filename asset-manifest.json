@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TECHTIONARY/static/css/main.bcc1611b.css",
-    "main.js": "/TECHTIONARY/static/js/main.9c85e902.js",
-    "static/js/453.84d898b2.chunk.js": "/TECHTIONARY/static/js/453.84d898b2.chunk.js",
-    "index.html": "/TECHTIONARY/index.html",
-    "main.bcc1611b.css.map": "/TECHTIONARY/static/css/main.bcc1611b.css.map",
-    "main.9c85e902.js.map": "/TECHTIONARY/static/js/main.9c85e902.js.map",
-    "453.84d898b2.chunk.js.map": "/TECHTIONARY/static/js/453.84d898b2.chunk.js.map"
+    "main.css": "/techtionary/static/css/main.bcc1611b.css",
+    "main.js": "/techtionary/static/js/main.3c243eef.js",
+    "static/js/453.84d898b2.chunk.js": "/techtionary/static/js/453.84d898b2.chunk.js",
+    "index.html": "/techtionary/index.html",
+    "main.bcc1611b.css.map": "/techtionary/static/css/main.bcc1611b.css.map",
+    "main.3c243eef.js.map": "/techtionary/static/js/main.3c243eef.js.map",
+    "453.84d898b2.chunk.js.map": "/techtionary/static/js/453.84d898b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcc1611b.css",
-    "static/js/main.9c85e902.js"
+    "static/js/main.3c243eef.js"
   ]
 }
